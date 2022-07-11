@@ -11,13 +11,13 @@ header{
   overflow: hidden;
   text-align: center;
 }
-.heading{
-  font-size: 80px;
+header h1{
+  font-size: 75px;
   color: #ffffff;
-  width: 80%;
+  width: 75%;
   margin: 180px auto 20px;
 }
-.description{
+header p{
   color: #ffffff;
   width: 50%;
   margin: 0 auto 10px;
@@ -32,4 +32,52 @@ header{
   margin-top: 20px;
   display: inline-block;
   font-weight: 900;
+}
+/*=========================== donate today section start ===============================*/
+.heading{
+  color: #121212;
+  font-size: 40px;
+  text-align: center;
+  margin: 100px 0 20px;
+}
+.description{
+  color: #707070;
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+}
+.donation-amount{
+  display: flex;
+  width: 60%;
+  margin: auto;
+}
+.amount{
+  padding:20px 30px;
+  font-size: 20px;
+  margin:50px 1%;
+  background-color: #FAFAFA;
+  color: #707070;
+}
+#second-amount{
+  background-color: #FFEEEE;
+  color: #FF5959;
+  border: 1px solid #FF5959;
+  border-radius: 5px;
+}
+input{
+  width: 60%;
+  display: block;
+  margin: auto;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  text-align: center;
+  color: #707070;
+  font-size: 18px;
+  padding: 10px;
+}
+#donate-button{
+  width: 8%;
+  margin: 20px auto;
+  display: block;
+  text-align: center;
 }
