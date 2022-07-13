@@ -191,7 +191,7 @@ footer{
   text-align: center;
   font-family: 'Lobster', cursive;
   background-image: linear-gradient(180deg,#f1d11a,#d60404);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color:transparent;
 }
 #footer-description{
