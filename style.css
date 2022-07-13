@@ -1,10 +1,10 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 header{
-  background-image: linear-gradient(transparent,#000000) , url(images/donation0.jpg);
+  background-image: linear-gradient(transparent,#000000) , url(images/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -12,16 +12,19 @@ header{
   text-align: center;
 }
 header h1{
-  font-size: 75px;
+  font-size: 60px;
   color: #ffffff;
-  width: 75%;
-  margin: 180px auto 20px;
+  width: 60%;
+  margin: 170px auto 20px;
+  font-family: 'Inter', sans-serif;
 }
 header p{
   color: #ffffff;
-  width: 50%;
+  width: 45%;
   margin: 0 auto 10px;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 100;
+  
 }
 .link-button{
   color: #ffffff;
@@ -36,9 +39,10 @@ header p{
 /*=========================== donate today section start ===============================*/
 .heading{
   color: #121212;
-  font-size: 40px;
+  font-size: 45px;
   text-align: center;
   margin: 100px 0 20px;
+  font-family: 'Inter', sans-serif;
 }
 .description{
   color: #707070;
@@ -64,7 +68,7 @@ header p{
   border: 1px solid #FF5959;
   border-radius: 5px;
 }
-input{
+#other-amount{
   width: 60%;
   display: block;
   margin: auto;
@@ -74,6 +78,7 @@ input{
   color: #707070;
   font-size: 18px;
   padding: 10px;
+  outline: none;
 }
 #donate-button{
   width: 8%;
@@ -107,4 +112,91 @@ input{
 #medicine-img{
   height: 52px;
 }
-/*=========================== their-life section start ===============================*/
+/*=========================== their-life section-1 start ===============================*/
+.their-life{
+  display: flex;
+}
+.half-width{
+  width: 50%;
+}
+#sec-info{
+ margin-left: 150px;
+}
+.left-align-heading{
+  text-align: left;
+  width: 80%;
+}
+.left-align-description{
+  text-align: left;
+  width: 70%;
+  margin-left: 0;
+  color: #707070;
+}
+.donation-image{
+  height: 80%;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+/*=========================== their-life section-2 start ===============================*/
+.their-life-sec2{
+  display: flex;
+}
+#donation-img2{
+  margin-left: 150px;
+}
+#heading{
+  width: 50%;
+}
+.para1{
+  width: 65%;
+}
+/*=========================== get my updates section start ===============================*/
+form{
+  display: flex;
+  width: 35%;
+  margin: 80px auto;
+  background-color: #FFF4D6;
+  padding: 100px 180px ;
+}
+.input-info{
+  padding:12px 20px;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+
+}
+#subscribe-email{
+  color: #707070;
+  font-size: 18px;
+  width: 60%;
+  background-color: #D9D9D9;
+  border-radius: 7px 0px 0px 7px;
+  outline: none;
+}
+#subscribe-button{
+  background-color:#FF5959 ;
+  width: 25%;
+  border-radius: 0px 7px 7px 0px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+
+footer{
+  background-color: #000000;
+  padding-top:30px ;
+  padding-bottom:50px ;
+}
+#footer-title{
+  margin: 0;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  background-image: linear-gradient(180deg,#f1d11a,#d60404);
+  background-clip: text;
+  -webkit-text-fill-color:transparent;
+}
+#footer-description{
+  display: block;
+  width: 8%;
+  margin: 10px auto;
+  color: #ddd;
+}
