@@ -81,3 +81,30 @@ input{
   display: block;
   text-align: center;
 }
+/*=========================== donation plan section start ===============================*/
+.fund-uses{
+  display: flex;
+  box-sizing: border-box;
+  width: 80%;
+  margin:60px auto;
+}
+.uses-source{
+  padding: 80px 30px 50px;
+  margin: 1%;
+}
+.uses-source p{
+  color: #707070;
+}
+#food-source{
+  background-color:#EDF5F6 ;
+}
+#shelter-source{
+  background-color: #FFEEEE;
+}
+#medicine-source{
+  background-color:#FFF4D6 ;
+}
+#medicine-img{
+  height: 52px;
+}
+/*=========================== their-life section start ===============================*/
